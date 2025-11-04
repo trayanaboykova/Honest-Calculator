@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Strings with no whitespace
+  - text: "Strings starting with whitespace, followed by 2-3 digits optionally with\
+    \ a dash, repeated 3 times at a word boundary"
+  - text: "Strings starting with 2-3 digits followed by a dash, repeated 3 times at\
+    \ a word end"
+  - text: "Strings starting with whitespace, followed by any characters optionally with\
+    \ a dash, repeated 3 times"
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/43287#comment
+status: Solved
+record: -1
+local_check: false
