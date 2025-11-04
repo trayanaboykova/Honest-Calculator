@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Honest-Calculator.iml" filepath="$PROJECT_DIR$/.idea/Honest-Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Honest Calculator (Java)/task/Honest-Calculator.Honest_Calculator__Java_-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Honest Calculator (Java)/task/Honest-Calculator.Honest_Calculator__Java_-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Honest Calculator (Java)/task/Honest-Calculator.Honest_Calculator__Java_-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Honest Calculator (Java)/task/Honest-Calculator.Honest_Calculator__Java_-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Honest Calculator (Java)/task/Honest-Calculator.Honest_Calculator__Java_-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Honest Calculator (Java)/task/Honest-Calculator.Honest_Calculator__Java_-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Honest-Calculator.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Honest-Calculator.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Honest-Calculator.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Honest-Calculator.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Honest-Calculator.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Honest-Calculator.util.test.iml" />
+    </modules>
+  </component>
+</project>
