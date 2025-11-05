@@ -9,27 +9,30 @@ public class Main {
         String msg_0 = "Enter an equation";
         String msg_1 = "Do you even know what numbers are? Stay focused!";
         String msg_2 = "Yes ... an interesting math operation. You've slept through all classes, haven't you?";
+        String msg_3 = "Yeah... division by zero. Smart move...";
 
         while (true) {
             System.out.println(msg_0);
             String calc = scanner.nextLine();
 
             // Split input into 3 parts: x, oper, y
-            String[] parts = calc.split(" ");
+            String[] parts = calc.split("\\s+");
             if (parts.length != 3) {
-                continue; // incorrect format, ask again
+                // Incorrect format, just ask again
+                continue;
             }
 
             String xStr = parts[0];
             String oper = parts[1];
             String yStr = parts[2];
 
-            double x, y;
+            float x;
+            float y;
 
             // Try to parse numbers
             try {
-                x = Double.parseDouble(xStr);
-                y = Double.parseDouble(yStr);
+                x = Float.parseFloat(xStr);
+                y = Float.parseFloat(yStr);
             } catch (NumberFormatException e) {
                 System.out.println(msg_1);
                 continue;
@@ -41,7 +44,33 @@ public class Main {
                 continue;
             }
 
-            // If all valid, exit (END in flowchart)
+            float result;
+
+            // Do the calculation
+            switch (oper) {
+                case "+":
+                    result = x + y;
+                    break;
+                case "-":
+                    result = x - y;
+                    break;
+                case "*":
+                    result = x * y;
+                    break;
+                case "/":
+                    if (y == 0) {
+                        System.out.println(msg_3);
+                        continue;   // ask for a new equation
+                    }
+                    result = x / y;
+                    break;
+                default:
+                    // Should never get here because of the check above
+                    continue;
+            }
+
+            // Print result and finish (END in the flowchart)
+            System.out.println(result);
             break;
         }
     }
