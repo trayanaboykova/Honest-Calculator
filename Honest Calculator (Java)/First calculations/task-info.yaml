@@ -7,23 +7,5 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://hyperskill.org/projects/350/stages/2057/implement#comment
-status: Failed
-feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Expected: 3.1
-    Found:    3.1
-    Do you want to store the result? (y / n):
-
-    Please find below the output of your program during this failed test.
-    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
-
-    ---
-
-    Enter an equation
-    &gt; 2 + 1.1
-    3.1
-    Do you want to store the result? (y / n):
-  time: "Wed, 05 Nov 2025 12:26:48 UTC"
+status: Unchecked
 record: 2
